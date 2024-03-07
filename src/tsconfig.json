@@ -9,7 +9,7 @@
     "strict": true,
     "typeRoots": ["../types"],
     "declaration": true,
-    "declarationDir": "../dist/types",
+    "declarationDir": "../out",
     "outDir": "../dist/js",
     "noEmitHelpers": true,
     "forceConsistentCasingInFileNames": true
