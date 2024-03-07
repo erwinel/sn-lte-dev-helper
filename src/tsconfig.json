@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "module": "none",
+    "target": "ES2015",
+    "lib": ["ES2021"],
+    "removeComments": false,
+    "sourceMap": false,
+    "strict": true,
+    "typeRoots": ["../types"],
+    "declaration": true,
+    "declarationDir": "../dist/types",
+    "outDir": "../dist/js",
+    "noEmitHelpers": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

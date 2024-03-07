@@ -1,0 +1,33 @@
+{
+  "name": "sn-lte-dev-helper",
+  "version": "1.0.0",
+  "description": "Source code for \"Lenny's Dev Helper\" ServiceNow Application (x_922204_lte_dhlp)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erwinel/sn-lte-dev-helper.git"
+  },
+  "keywords": [
+    "ServiceNow",
+    "Development",
+    "Helper"
+  ],
+  "author": "Leonard T. Erwine",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/erwinel/sn-lte-dev-helper/issues"
+  },
+  "homepage": "https://github.com/erwinel/sn-lte-dev-helper#readme",
+  "dependencies": {
+    "@types/jasmine": "^5.1.4"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-dest": "^0.2.3",
+    "typescript": "^5.4.2"
+  }
+}

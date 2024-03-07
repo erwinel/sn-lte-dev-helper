@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build x_922204_lte_dhlp",
+      "dependsOrder": "sequence",
+      "dependsOn": ["transpile", "copyTypings"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "clear": true
+      }
+    },
+    {
+      "type": "typescript",
+      "tsconfig": "src/tsconfig.json",
+      "problemMatcher": "$tsc",
+      "group": "build",
+      "label": "transpile"
+    },
+    {
+      "label": "copyTypings",
+      "type": "shell",
+      "group": "build",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "command": "node_modules/.bin/gulp",
+      "args": ["copyTypings"]
+    }
+  ]
+}
